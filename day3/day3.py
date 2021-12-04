@@ -31,11 +31,3 @@ for i in range(2):
     lists.append(clist)
 
 print(int(lists[0][0], 2) * int(lists[1][0], 2))
-
-
-
-
-# csum = [i[char] for i in clist].count("1")
-# clen = len(clist)
-
-# s = ("0" if i else "1") if csum >= clen / 2 or csum == clen - 1 else ("1" if i else "0")
